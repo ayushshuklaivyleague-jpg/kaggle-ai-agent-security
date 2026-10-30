@@ -159,6 +159,15 @@ This code runs **exclusively inside Kaggle's competition evaluation environment*
 
 ---
 
+---
+
+## 🛡️ Responsible Research & Competition Sandbox Scope
+
+- **Sandboxed Evaluation**: All adversarial prompt techniques, multi-step tool calls, and payload evaluations documented in this repository were conducted strictly within Kaggle's isolated competition execution sandbox (icomp_sdk).
+- **Research Scope**: The algorithms target competition-specific evaluation environments and are intended to advance the defensive alignment and robustness of tool-integrated LLM agents. They are not intended for deployment against real-world production APIs or external internet systems.
+- **Evaluation Provenance**: All development scores ([SIMULATED_DEVELOPMENT]) and synthetic holdout scores ([SYNTHETIC_HOLDOUT]) reflect offline stress testing across simulated environments and do not represent or guarantee performance on hidden private test evaluators. Real competition results are tagged explicitly ([REAL_KAGGLE_RESULT]).
+
+
 ## License
 
 MIT License — see [LICENSE](LICENSE)
