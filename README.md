@@ -178,6 +178,15 @@ This code runs **exclusively inside Kaggle's competition evaluation environment*
 - **Evaluation Provenance**: All development scores ([SIMULATED_DEVELOPMENT]) and synthetic holdout scores ([SYNTHETIC_HOLDOUT]) reflect offline stress testing across simulated environments and do not represent or guarantee performance on hidden private test evaluators. Real competition results are tagged explicitly ([REAL_KAGGLE_RESULT]).
 
 
+---
+
+## 🤖 AI-Assisted Development & Engineering Tool Disclosure
+
+- **Development Stack**: Python 3.10+, PyTorch, NumPy, SciPy, and Kaggle Competition Environment (icomp_sdk).
+- **AI Tool Assistance**: ChatGPT and Antigravity were used for coding assistance, mathematical backsolver derivation, refining UCB exploration logic, and structuring experimental reports.
+- **Research Authorship**: All multi-arm bandit formulations, sequential latency classification bounds, and empirical competition replay experiments were directed and evaluated by the author.
+
+
 ## License
 
 MIT License — see [LICENSE](LICENSE)
