@@ -149,6 +149,16 @@ Computes required raw score, points-per-second, and candidate counts at K=2/4/6 
 
 ---
 
+---
+
+## ⚙️ Execution Requirements & SDK Dependencies
+
+- **Competition Environment**: This algorithm relies on Kaggle's evaluation environment and the official competition SDK (icomp_sdk).
+- **Offline Inspection vs. Execution**:
+  - The statistical classifiers (21_classifier.py), mathematical backsolvers (24_score_backsolver.py, ultimate_score_backsolver.py), and empirical reports (ultimate_forensic_report.md, causal_ablation_report.md) are self-contained and run on standard Python 3.10+ environments.
+  - The attack controllers (ultimate_attack.py, submission_attack_final.py) import icomp_sdk.attacks.contracts and icomp_sdk.core.env.api and are designed to execute inside Kaggle notebook runtimes where the competition SDK is mounted.
+
+
 ## Setup (Kaggle Only)
 
 This code runs **exclusively inside Kaggle's competition evaluation environment** with `aicomp_sdk` installed. To reproduce:
