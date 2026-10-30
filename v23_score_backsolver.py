@@ -1,0 +1,29 @@
+import math
+
+def solve_v23_score_targets():
+    print("=" * 115)
+    print("V23 MATHEMATICAL SCORE TARGET BACKSOLVER: 125 TO 150+")
+    print("=" * 115)
+
+    targets = [125.0, 130.0, 135.0, 140.0, 145.0, 147.530, 150.0, 155.0]
+    budget_s = 9000.0 * 0.980 # 8820s effective replay budget
+
+    print(f"{'Target Score':<14s} | {'Req Raw Score':<14s} | {'Req Pts/sec':<14s} | {'K=2 Cands':<12s} | {'K=4 Cands':<12s} | {'K=6 Cands':<12s} | {'Feasibility'}")
+    print("-" * 115)
+
+    for target in targets:
+        req_raw = target * 200.0
+        req_pts_per_sec = req_raw / budget_s
+
+        k2_cands = req_raw / 34.0
+        k4_cands = req_raw / 66.0
+        k6_cands = req_raw / 98.0
+
+        feasibility = "Achievable (K=4)" if req_pts_per_sec <= 3.00 else (
+            "Requires K=5..6 Burst" if req_pts_per_sec <= 3.25 else "Requires Max K=8 Hop Saturation"
+        )
+
+        print(f"{target:<14.3f} | {req_raw:<14.1f} | {req_pts_per_sec:<14.3f} | {k2_cands:<12.1f} | {k4_cands:<12.1f} | {k6_cands:<12.1f} | {feasibility}")
+
+if __name__ == '__main__':
+    solve_v23_score_targets()

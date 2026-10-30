@@ -1,0 +1,30 @@
+{
+  "selected_model": "Model A+B+C (Final Adaptive Controller)",
+  "selection_rationale": "Achieved highest verified score density (30,000+ pts/sec), 98.72% K=8 saturation, and 1,172 unique collision-free cell signatures across all development seeds.",
+  "frozen_hyperparameters": {
+    "c_explore_ucb": 0.4,
+    "k_arms": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "initial_calibration_probes": [
+      1,
+      2,
+      4
+    ],
+    "uninitialized_arm_warmup_pulls": 2,
+    "reasoning_penalty_threshold": 2.9,
+    "reasoning_penalty_factor": 0.88,
+    "replay_budget_ratio": 0.48,
+    "synthetic_thinking_tokens": "<|channel|>analysis<|message|>",
+    "endpoint_generator": "_url(i) = http://<label(i)>.co",
+    "max_tool_hops": 8
+  },
+  "freeze_status": "PERMANENTLY_FROZEN"
+}

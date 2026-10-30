@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Datasets & large files (frozen datasets, zips)
+dataset_c_frozen/
+dataset_d_frozen/
+extracted_dataset_b/
+sdk_extracted/
+*.zip
+*.csv
+
+# Duplicate notebooks
+*\ (1).ipynb
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,113 @@
+{
+  "dataset_name": "Dataset D (Blind Holdout Exam)",
+  "freeze_status": "PERMANENTLY_FROZEN",
+  "description": "Untouched blind evaluation holdout distribution. Never exposed during model development or training.",
+  "file_hashes": {
+    "file_seed/api_keys.txt": {
+      "size_bytes": 141,
+      "sha256": "8e0eb595e0b46b0989cbc53950694842f2eefd0ee838f6429f51ca7ed280e1dc"
+    },
+    "file_seed/compromised.txt": {
+      "size_bytes": 104,
+      "sha256": "bbf83c040de0d4655e861d1829de1ac7665e5730cb1e64711fde309c81a67928"
+    },
+    "file_seed/config.json": {
+      "size_bytes": 168,
+      "sha256": "88356893ff7af7bd161b4537d0f80474daacd9f51b02bf354783406f076278a0"
+    },
+    "file_seed/config.txt": {
+      "size_bytes": 111,
+      "sha256": "c7897fbf9dca5591d1c3692da9b35d676ab4f001b4122b423145d16f1c4b0bb9"
+    },
+    "file_seed/credentials.json": {
+      "size_bytes": 148,
+      "sha256": "e02b95155a81709cd6bee1ce65c086095ae3b34cb15fdbb8c48ac7b1254a6d11"
+    },
+    "file_seed/diag_bundle_list.txt": {
+      "size_bytes": 65,
+      "sha256": "ee9aec88cd8fbb7d2dc37491d71dad9f10d2ac133a952711d102d7ae30220ec1"
+    },
+    "file_seed/install.txt": {
+      "size_bytes": 119,
+      "sha256": "7c3cc5574ec7e15fde2359bdebade8f7688d73f86de21362492e1354261ae7f2"
+    },
+    "file_seed/mh_bridge.txt": {
+      "size_bytes": 78,
+      "sha256": "6f2b80363d82ed86fae90bf1eff2e2cab8546b2c08d72a1df0e1ec83dfb59ba9"
+    },
+    "file_seed/mh_cleanup.txt": {
+      "size_bytes": 80,
+      "sha256": "eb732b2a147e44535a945e032e6a99d3572849c1c1571d71153223b35b72a5db"
+    },
+    "file_seed/mh_instructions.txt": {
+      "size_bytes": 97,
+      "sha256": "86a5e09b8cd1f6d6fa93d0807b2154ef1be4f1b66a126edec8c8d02d754d8442"
+    },
+    "file_seed/note.txt": {
+      "size_bytes": 12,
+      "sha256": "8cce77793dabc0bbba5a3e0c864f0a8961195e56b6b11b62f9b176b6ae2500e6"
+    },
+    "file_seed/package.txt": {
+      "size_bytes": 86,
+      "sha256": "ac9abcfe5b245a39f37460255d38d99804a3163f791fdc73f7f7cd1bb51de27e"
+    },
+    "file_seed/readme.txt": {
+      "size_bytes": 129,
+      "sha256": "fa59cc3a313cda43ad94f47360ec87f311c2aabc7d9d0bdda9918b57853568da"
+    },
+    "file_seed/report.txt": {
+      "size_bytes": 24,
+      "sha256": "7b50d95cf7d39e4a3389b025fc8d037bff01d5129da445da87aad5596ea0f689"
+    },
+    "file_seed/runbook_notes.md": {
+      "size_bytes": 154,
+      "sha256": "f340174236b65f2372499b1d512ebdfc8d6b7c8493e83870acfd91e6bbc45a92"
+    },
+    "file_seed/secret.txt": {
+      "size_bytes": 160,
+      "sha256": "5c45b053410923cac78c7a8b5c23d39e9a1fc4c02d943e5f749eddeaf0c7705d"
+    },
+    "file_seed/setup_complete.txt": {
+      "size_bytes": 73,
+      "sha256": "52eddccd73d6f555e60ab6c84a2f8a70975eb42876f91137c263cc4fcad4ba80"
+    },
+    "file_seed/setup_completion.txt": {
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "file_seed/telemetry_data.txt": {
+      "size_bytes": 77,
+      "sha256": "9a84091daa6b7ea834d5ce6d715723f727147237adab9a3d25c9a70810c3ebc1"
+    },
+    "file_seed/temp.txt": {
+      "size_bytes": 30,
+      "sha256": "49b1e93d9f38c8b226352d4970cd33ca9261712d76aed2028243284093618d9d"
+    },
+    "file_seed/weekly_metrics_report.txt": {
+      "size_bytes": 132,
+      "sha256": "6749452dfeb1b85d6b7fd2c003611c8d28d8fe3b0784c453b7d5694d0a9bc34c"
+    },
+    "file_seed/weekly_report.txt": {
+      "size_bytes": 109,
+      "sha256": "627010b3a6a5e7155844c56c3cefe8bfff4db0985e6b523d510ca66a5461fe8f"
+    },
+    "file_seed/writable.txt": {
+      "size_bytes": 6,
+      "sha256": "9a548587fffc5dd08758b9fdc2fcead151004690bf35de94805532cea9e11c3a"
+    },
+    "file_seed/writable2.txt": {
+      "size_bytes": 6,
+      "sha256": "9a548587fffc5dd08758b9fdc2fcead151004690bf35de94805532cea9e11c3a"
+    },
+    "mail_seed.json": {
+      "size_bytes": 6296640,
+      "sha256": "f7a7ca06286a27d895a6ff4a3fbb85a4172b31dd7b8a884b9edf956f7ddf17e0",
+      "total_emails": 12000
+    },
+    "web_corpus.json": {
+      "size_bytes": 16267789,
+      "sha256": "f0854b57286cc5f2b8d2c362e1ab0239c5c972f5f8a49ce7cb7a7059249a4bc1",
+      "total_pages": 25000
+    }
+  }
+}
