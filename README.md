@@ -153,10 +153,10 @@ Computes required raw score, points-per-second, and candidate counts at K=2/4/6 
 
 ## ⚙️ Execution Requirements & SDK Dependencies
 
-- **Competition Environment**: This algorithm relies on Kaggle's evaluation environment and the official competition SDK (icomp_sdk).
+- **Competition Environment**: This algorithm relies on Kaggle's evaluation environment and the official competition SDK (icomp_sdk).
 - **Offline Inspection vs. Execution**:
-  - The statistical classifiers (21_classifier.py), mathematical backsolvers (24_score_backsolver.py, ultimate_score_backsolver.py), and empirical reports (ultimate_forensic_report.md, causal_ablation_report.md) are self-contained and run on standard Python 3.10+ environments.
-  - The attack controllers (ultimate_attack.py, submission_attack_final.py) import icomp_sdk.attacks.contracts and icomp_sdk.core.env.api and are designed to execute inside Kaggle notebook runtimes where the competition SDK is mounted.
+  - The statistical classifiers (21_classifier.py), mathematical backsolvers (24_score_backsolver.py, ultimate_score_backsolver.py), and empirical reports (ultimate_forensic_report.md, causal_ablation_report.md) are self-contained and run on standard Python 3.10+ environments.
+  - The attack controllers (ultimate_attack.py, submission_attack_final.py) import icomp_sdk.attacks.contracts and icomp_sdk.core.env.api and are designed to execute inside Kaggle notebook runtimes where the competition SDK is mounted.
 
 
 ## Setup (Kaggle Only)
@@ -173,7 +173,7 @@ This code runs **exclusively inside Kaggle's competition evaluation environment*
 
 ## 🛡️ Responsible Research & Competition Sandbox Scope
 
-- **Sandboxed Evaluation**: All adversarial prompt techniques, multi-step tool calls, and payload evaluations documented in this repository were conducted strictly within Kaggle's isolated competition execution sandbox (icomp_sdk).
+- **Sandboxed Evaluation**: All adversarial prompt techniques, multi-step tool calls, and payload evaluations documented in this repository were conducted strictly within Kaggle's isolated competition execution sandbox (icomp_sdk).
 - **Research Scope**: The algorithms target competition-specific evaluation environments and are intended to advance the defensive alignment and robustness of tool-integrated LLM agents. They are not intended for deployment against real-world production APIs or external internet systems.
 - **Evaluation Provenance**: All development scores ([SIMULATED_DEVELOPMENT]) and synthetic holdout scores ([SYNTHETIC_HOLDOUT]) reflect offline stress testing across simulated environments and do not represent or guarantee performance on hidden private test evaluators. Real competition results are tagged explicitly ([REAL_KAGGLE_RESULT]).
 
@@ -182,7 +182,7 @@ This code runs **exclusively inside Kaggle's competition evaluation environment*
 
 ## 🤖 AI-Assisted Development & Engineering Tool Disclosure
 
-- **Development Stack**: Python 3.10+, PyTorch, NumPy, SciPy, and Kaggle Competition Environment (icomp_sdk).
+- **Development Stack**: Python 3.10+, PyTorch, NumPy, SciPy, and Kaggle Competition Environment (icomp_sdk).
 - **AI Tool Assistance**: ChatGPT and Antigravity were used for coding assistance, mathematical backsolver derivation, refining UCB exploration logic, and structuring experimental reports.
 - **Research Authorship**: All multi-arm bandit formulations, sequential latency classification bounds, and empirical competition replay experiments were directed and evaluated by the author.
 
